@@ -1,35 +1,80 @@
 datasets:
   raw:
-    orders:
+    sales_data:
       type: ds
       format: csv
-      uri: ${core.data_base_path}/raw/sales/orders.csv
+      uri: ${core.data_base_path}/raw/case_study/sales_data.csv
       driver_params: {}
-  
-    product:
+
+    product_manufacture_list:
       type: ds
       format: csv
-      uri: ${core.data_base_path}/raw/sales/prod_master.csv
+      uri: ${core.data_base_path}/raw/case_study/product_manufacturer_list.csv
       driver_params: {}
-  
+
+    google_search_data:
+      type: ds
+      format: csv
+      uri: ${core.data_base_path}/raw/case_study/google_search_data.csv
+      driver_params: {}
+
+    social_media_data:
+      type: ds
+      format: csv
+      uri: ${core.data_base_path}/raw/case_study/social_media_data.csv
+      driver_params: {}
+
+    Theme_list:
+      type: ds
+      format: csv
+      uri: ${core.data_base_path}/raw/case_study/Theme_list.csv
+      driver_params: {}
+
+    Theme_product_list:
+      type: ds
+      format: csv
+      uri: ${core.data_base_path}/raw/case_study/Theme_product_list.csv
+      driver_params: {}
+
   cleaned:
-    orders:
+    sales_data:
       type: ds
       format: parquet
-      uri: ${core.data_base_path}/cleaned/sales/orders.parquet
+      uri: ${core.data_base_path}/cleaned/case_study/sales_data.parquet
       driver_params: {}
 
-    product:
+    product_manufacture_list:
       type: ds
       format: parquet
-      uri: ${core.data_base_path}/cleaned/sales/product.parquet
+      uri: ${core.data_base_path}/cleaned/case_study/product_manufacture_list.parquet
       driver_params: {}
 
-    sales:
+    google_search_data:
       type: ds
       format: parquet
-      uri: ${core.data_base_path}/cleaned/sales/sales.parquet
+      uri: ${core.data_base_path}/cleaned/case_study/google_search_data.parquet
       driver_params: {}
+
+    social_media_data:
+      type: ds
+      format: parquet
+      uri: ${core.data_base_path}/cleaned/case_study/social_media_data.parquet
+      driver_params: {}
+
+    Theme_list:
+      type: ds
+      format: parquet
+      uri: ${core.data_base_path}/cleaned/case_study/Theme_list.parquet
+      driver_params: {}
+
+    Theme_product_list:
+      type: ds
+      format: parquet
+      uri: ${core.data_base_path}/cleaned/case_study/Theme_product_list.parquet
+      driver_params: {}
+
+
+
 
   processed:
     sales:
