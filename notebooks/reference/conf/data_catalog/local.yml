@@ -21,7 +21,7 @@ datasets:
     social_media_data:
       type: ds
       format: xlsx
-      uri: ${core.data_base_path}/raw/case_study/social_media_data.xlsx
+      uri: ${core.data_base_path}/raw/case_study/social_media_data.csv
       driver_params: {}
 
     Theme_list:
