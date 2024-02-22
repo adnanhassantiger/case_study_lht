@@ -6,7 +6,7 @@ datasets:
       uri: ${core.data_base_path}/raw/case_study/sales_data.csv
       driver_params: {}
 
-    product_manufacture_list:
+    product_manufacturer_list:
       type: ds
       format: csv
       uri: ${core.data_base_path}/raw/case_study/product_manufacturer_list.csv
@@ -24,7 +24,7 @@ datasets:
       uri: ${core.data_base_path}/raw/case_study/social_media_data.csv
       driver_params: {}
 
-    Theme_list:
+    Themes_list:
       type: ds
       format: csv
       uri: ${core.data_base_path}/raw/case_study/Theme_list.csv
@@ -43,10 +43,10 @@ datasets:
       uri: ${core.data_base_path}/cleaned/case_study/sales_data.parquet
       driver_params: {}
 
-    product_manufacture_list:
+    product_manufacturer_list:
       type: ds
       format: parquet
-      uri: ${core.data_base_path}/cleaned/case_study/product_manufacture_list.parquet
+      uri: ${core.data_base_path}/cleaned/case_study/product_manufacturer_list.parquet
       driver_params: {}
 
     google_search_data:
@@ -61,7 +61,7 @@ datasets:
       uri: ${core.data_base_path}/cleaned/case_study/social_media_data.parquet
       driver_params: {}
 
-    Theme_list:
+    Themes_list:
       type: ds
       format: parquet
       uri: ${core.data_base_path}/cleaned/case_study/Theme_list.parquet
